@@ -340,12 +340,31 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 400px;
 }
 
+@media (max-width:1020px) {
+  .banner img {
+    animation: updown 3s linear infinite;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+  }
+}
+
 .banner .ball {
   
   animation-delay: 0.5s;
   width: 200px;
   height: 200px;
   margin-left: 23%;
+}
+
+@media (max-width:1020px) {
+  .banner .ball {
+    animation-delay: 0.5s;
+    width: 150px;
+    height: 150px;
+    margin-left: 23%;
+    margin-top: 15%;
+  }
 }
 @keyframes updown {
     0% {
