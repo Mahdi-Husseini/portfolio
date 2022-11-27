@@ -16,7 +16,6 @@ export const Footer = () => {
               <a target= "_blank" href="https://www.tiktok.com/@justmahdistuff"><img src={navIcon2} alt="TikTok" /></a>
               <a target= "_blank" href="https://www.instagram.com/mahdihusseini10/"><img src={navIcon3} alt="Instagram" /></a>
             </div>
-            <p>Mahdihusseini360@gmail.com</p>
           </Col>
         </Row>
       </Container>

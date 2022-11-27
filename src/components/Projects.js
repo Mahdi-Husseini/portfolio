@@ -9,6 +9,8 @@ import fcc from "../assets/img/fcc.png";
 import java from "../assets/img/java.png";
 import r from "../assets/img/r.png";
 import c from "../assets/img/c.png";
+import car from "../assets/img/centenario.jpg";
+import movie from "../assets/img/movie.jpg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -32,6 +34,18 @@ export const Projects = () => {
       description: "A web app built with django, it is a demo of a delivery app that has user-admin integration each with specific interface, where user orders and admin manage orders and add pizzas. Feel free to try both interfaces, to access admin add /admin to url, the privelages for admin login are: user=admin, pass=admin",
       imgUrl: pizza,
       url: "https://pizza-online1.herokuapp.com/"
+    },
+    {
+      title: "Speedograph",
+      description: "A car-specific social media app built with react and sanity",
+      imgUrl: car,
+      url: "https://speedograph.netlify.app/"
+    },
+    {
+      title: "Watch&Chill",
+      description: "Built when I was learning react, this simple responsive webapp uses OMDB API to fetch movies and series of the specified topic and displays them",
+      imgUrl: movie,
+      url: "https://watchchill.netlify.app/"
     },
   ];
 
