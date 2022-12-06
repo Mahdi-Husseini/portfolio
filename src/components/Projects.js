@@ -11,6 +11,10 @@ import r from "../assets/img/r.png";
 import c from "../assets/img/c.png";
 import car from "../assets/img/centenario.jpg";
 import movie from "../assets/img/movie.jpg";
+import world_cup from "../assets/img/world-cup.jpg";
+import weather from "../assets/img/weather.jpg";
+import SP from "../assets/img/SP.jpg";
+import basketball from "../assets/img/basketball.jpg";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -24,16 +28,16 @@ export const Projects = () => {
       url: "https://mahdi-dna-rna.streamlitapp.com/"
     },
     {
-      title: "Pixelware",
-      description: "A website made just with html and css, it one of my first projects when I started learning, it is based to teach beginners python code in a fun way using the turtle library",
-      imgUrl: pixel,
-      url: "https://pixelware.netlify.app/"
+      title: "World Cup Group-Stage",
+      description: "This app scrapes 2022 world cup group stage data from wikipedia and shows live top scorers",
+      imgUrl: world_cup,
+      url: "https://world-cup-groups.streamlit.app/"
     },
     {
-      title: "Pizza Application",
-      description: "A web app built with django, it is a demo of a delivery app that has user-admin integration each with specific interface, where user orders and admin manage orders and add pizzas. Feel free to try both interfaces, to access admin add /admin to url, the privelages for admin login are: user=admin, pass=admin",
-      imgUrl: pizza,
-      url: "https://pizza-online1.herokuapp.com/"
+      title: "Beirut Weather",
+      description: "this app represents beirut's weather from 1996 till 2010 with statistical insights and it provides a demo weather forecasting relative to the collected data",
+      imgUrl: weather,
+      url: "https://beirut-weather.streamlit.app/"
     },
     {
       title: "Speedograph",
@@ -42,12 +46,39 @@ export const Projects = () => {
       url: "https://speedograph.netlify.app/"
     },
     {
+      title: "Pizza Application",
+      description: "A web app built with django, it is a demo of a delivery app that has user-admin integration each with specific interface, where user orders and admin manage orders and add pizzas. Feel free to try both interfaces, to access admin add /admin to url, the privelages for admin login are: user=admin, pass=admin",
+      imgUrl: pizza,
+      url: "https://pizza-online1.herokuapp.com/"
+    },
+    {
+      title: "S&P500",
+      description: "presents all companies of S&P500 with their sectors and stock-market history visualization of each index",
+      imgUrl: SP,
+      url: "https://mahdi-sp500.streamlit.app/"
+    },
+  ];
+
+  const projects2 = [
+    {
+      title: "NBA Player Stats",
+      description: "provides all NBA Players statistics of years 2021 and backwards with filters to teams and positions, along with a heatmap for every representation ",
+      imgUrl: basketball,
+      url: "https://mahdi-basketball.streamlit.app/"
+    },
+    {
+      title: "Pixelware",
+      description: "A website made just with html and css, it one of my first projects when I started learning, it is based to teach beginners python code in a fun way using the turtle library",
+      imgUrl: pixel,
+      url: "https://pixelware.netlify.app/"
+    },
+    {
       title: "Watch&Chill",
       description: "Built when I was learning react, this simple responsive webapp uses OMDB API to fetch movies and series of the specified topic and displays them",
       imgUrl: movie,
       url: "https://watchchill.netlify.app/"
     },
-  ];
+  ]
 
   const courses = [
     {
@@ -68,9 +99,6 @@ export const Projects = () => {
       imgUrl: fcc,
       url: "https://www.freecodecamp.org/certification/mahdi_husseini/scientific-computing-with-python-v7"
     },
-  ]
-
-  const courses2 = [
     {
       title: "Java Bootcamp",
       description: "I made complex java projects with this course and built bullet-proof apps, I also learned about reference traps,threads and much more",
@@ -107,10 +135,10 @@ export const Projects = () => {
                       <Nav.Link eventKey="first">Projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Courses</Nav.Link>
+                      <Nav.Link eventKey="second">More Projects</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">More Courses</Nav.Link>
+                      <Nav.Link eventKey="third">Courses</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
@@ -131,7 +159,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="second">
                       <Row>
                         {
-                          courses.map((course, index) => {
+                          projects2.map((course, index) => {
                             return (
                               <ProjectCard
                                 key={index}
@@ -145,7 +173,7 @@ export const Projects = () => {
                     <Tab.Pane eventKey="third">
                     <Row>
                         {
-                          courses2.map((course, index) => {
+                          courses.map((course, index) => {
                             return (
                               <ProjectCard
                                 key={index}
