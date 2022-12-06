@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.79c7f387.css",
-    "main.js": "/portfolio/static/js/main.77ce4bbe.js",
-    "static/js/787.c268af08.chunk.js": "/portfolio/static/js/787.c268af08.chunk.js",
+    "main.css": "/portfolio/static/css/main.d4d8f9d2.css",
+    "main.js": "/portfolio/static/js/main.ea411721.js",
+    "static/js/787.d46fac7c.chunk.js": "/portfolio/static/js/787.d46fac7c.chunk.js",
     "static/media/pitch.png": "/portfolio/static/media/pitch.ceae4553eb0fc1615992.png",
     "static/media/grass.jpg": "/portfolio/static/media/grass.dae5f7c567997b2b9770.jpg",
     "static/media/me.jpg": "/portfolio/static/media/me.a11fc18ab6feae31ecde.jpg",
@@ -15,10 +15,14 @@
     "static/media/CentraNo2-Book.ttf": "/portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/pixelware.png": "/portfolio/static/media/pixelware.18c1d2f79ff049f58615.png",
     "static/media/real-madrid.svg": "/portfolio/static/media/real-madrid.5a9b12407dc5fb6e0e33d5b28a64312d.svg",
+    "static/media/basketball.jpg": "/portfolio/static/media/basketball.c2c131e1177854c0a479.jpg",
+    "static/media/SP.jpg": "/portfolio/static/media/SP.3517916fce083632b7f5.jpg",
     "static/media/logo.png": "/portfolio/static/media/logo.a28e0548218f78c42e9c.png",
+    "static/media/weather.jpg": "/portfolio/static/media/weather.7d5700767ef8dce57bad.jpg",
     "static/media/movie.jpg": "/portfolio/static/media/movie.fed4dae7ee685c59e81a.jpg",
     "static/media/ball.png": "/portfolio/static/media/ball.d3f7b36617a540431252.png",
     "static/media/centenario.jpg": "/portfolio/static/media/centenario.b7cbbf991521b7571be2.jpg",
+    "static/media/world-cup.jpg": "/portfolio/static/media/world-cup.019a001a5fbe3ef4af9b.jpg",
     "static/media/java.png": "/portfolio/static/media/java.a22a0cc34f888354613e.png",
     "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
@@ -33,12 +37,12 @@
     "static/media/tiktok.svg": "/portfolio/static/media/tiktok.a6fc326210fa2657f16d1ec4cc75f9bb.svg",
     "index.html": "/portfolio/index.html",
     "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
-    "main.79c7f387.css.map": "/portfolio/static/css/main.79c7f387.css.map",
-    "main.77ce4bbe.js.map": "/portfolio/static/js/main.77ce4bbe.js.map",
-    "787.c268af08.chunk.js.map": "/portfolio/static/js/787.c268af08.chunk.js.map"
+    "main.d4d8f9d2.css.map": "/portfolio/static/css/main.d4d8f9d2.css.map",
+    "main.ea411721.js.map": "/portfolio/static/js/main.ea411721.js.map",
+    "787.d46fac7c.chunk.js.map": "/portfolio/static/js/787.d46fac7c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.79c7f387.css",
-    "static/js/main.77ce4bbe.js"
+    "static/css/main.d4d8f9d2.css",
+    "static/js/main.ea411721.js"
   ]
 }
